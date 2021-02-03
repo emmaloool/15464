@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# Technical Animation (Spring 2021) Blog
 
-You can use the [editor on GitHub](https://github.com/emmaloool/15464/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction to Animation (2/3)
 
-### Markdown
+We were given a brief overview of the main topics we're covering this semester, including rigging and skinning, kinematics, motion, simulations (cloth, fluid), and body motion. Some of these concepts and even examples (i.e., the *Coco* and *Isle of Dogs* movie behind-the-scenes demos) were covered in 15-462: Computer Graphics lectures last semester. It was cool to see a more dedicated dive into the cutting-edge research in this course, and I look forward to building on top of the animation techniques I learned last semester, including forward and inverse kinematics.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Course Overview (2/1)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emmaloool/15464/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We went over several new research publications in technical animation: the two that stood out to me the most were simulating boundary-aware waves and animating yarn-level cloth effects. I also liked the brief overview Prof. Pollard gave of her research on hand motion and modeling. I look forward to learning about general simulation and applications in this course, including cloth and light/fluid simulation (especially as it pertains to food)!
