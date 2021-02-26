@@ -1,5 +1,14 @@
 # Technical Animation (Spring 2021) Blog
 
+
+### Paper Presentations I (2/24)
+
+I enjoyed everyone's paper presentations. I was especially impressed by the hand motion tracking paper pushed by Facebook Reality Labs, which targeted the difficulties of occlusion and self-contact in hand tracking. It was eerily impressive how their tracking algorithm combined with their physically-based model system robustly enabled pretty complex hand configurations. In addition, another student presented about optimizing stop-motion animation by replacing sequences with computer animation, which led to an interesting discussion of the artistic merits of the medium as a whole. 
+
+### Rigging and Skinning (2/22)
+
+Today we went over a survey of recent research on rigging and skinning, done mostly using advanced machine learning techniques. I liked implementing the simple version of linear blend skinning for 15462; it was interesting to learn more advanced techniques to combat the candy-wrapper effect using quaternions. Among the research papers for the day, I found the NeuroSkinning paper to be the most interesting, as it demonstrated several tests where there were noticeable cloth intersections without the method they used, and it got me thinking about how cloth collisions and skinning are not necessarily processed separately (i.e., they have impact on each other, and cloths sticking closer to the skin can suffer from issues related to bad skinning).
+
 ### Inverse Kinematics, Continued (2/17)
 
 We recapped a previous discussion of inverse kinematics (the Jacobian tranpose, pseudoinverse, damped pseudoinverse, projections of other vectors into the nullspace), and eventually covered methods without using the Jacobian transpose. We first looked at a paper that adds priorities, and then another paper that parallelizes the classical approach, and finally a method that directly searches for the minimum. I really liked seeing the parallelization paper, since I've taken classes in computer architecture and like to see how systems and optimization techniques (obtaining better speedup, cache locality, etc.) can benefit fields in computer graphics.
