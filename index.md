@@ -1,5 +1,12 @@
 # Technical Animation (Spring 2021) Blog
 
+### Mini-Project 1 Presentations (3/3)
+
+I enjoyed watching everyone's presentations! Anne and I gave our presentation on our mocap + keyframing efforts, and it prompted good discussion about the ease of use of euler vs. quaternion representations for these options, which other people found that they were also experiences issues with. I also really liked Alyssa's Blender visualizations for our CCD implementations.
+
+### Learned Motion Matching (3/1)
+
+We discussed the paper "Learned Motion Matching" by Holden et. al, an integral technique to modern animation systems using widely in gaming today. I was impressed by how intuitive motion matching is; smoothing the patchwork of clips is done by applying foot locking and IK, techniques that are also easy to understand. The learned motion matching system they propose is similarly just as intuitive, by using the idea of a motion matching search and combined features database (joining together matching feature database and extra features database), bu instead of actually using databases, using a series of neural networks to do search/predict combined features to emulate the search/lookup. The final results are indistinguishable from canonical motion matching systems, but with better scalability.
 
 ### Paper Presentations I (2/24)
 
