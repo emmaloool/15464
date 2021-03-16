@@ -1,5 +1,15 @@
 # Technical Animation (Spring 2021) Blog
 
+### More Cloth (3/10)
+
+We started class today by covering the "Robust Treatment of Collisions, Contact, and Friction for Cloth Animation", which was useful for understanding some key points for handling collisions (in particular, self-collisions). We also discuss limiting strain using momentum conserving impulses. The rest of the lecture, we covered other papers to handling tuning simulation parameters, which can be a sore point for spring mass systems. One of the papers that caught my eye was the "Adaptive Anisotropic Remeshing for Cloth Simulation", which uses an extreme intuitive anisotropic meshing scheme. The operations were reminiscent of the remeshing operations we implemented for MeshEdit in 15462, so it was quite interesting to see such intuitive operations had great efficacy in this paper's implementation; I think implementing the algorithms for this paper is very approachable, possibly in-scope for projects for this course. 
+
+Looking at these options, I think I'm leaning towards implementing the spring-mass cloth simulator for Mini-Project 2, since we covered this technique in detail in class. 
+
+### Simulation and Cloth (3/8)
+
+Today we discussed the basics of a spring-mass cloth simulators and cloth integrators, which was all new to me (I've never made a simulation before). One of the papers discussed was one that presents a unified dynamics solver ("Nucleus: Towards a unified dynamics solver for computer graphics") by modeling mater as simplicial complexes, which I found to be pretty interesting. I think it would be helpful to read up on this paper to understand some of the design decisions/tradeoffs in using different integrators, which also happens to be an option I could explore for Mini-Project 2.
+
 ### Mini-Project 1 Presentations (3/3)
 
 I enjoyed watching everyone's presentations! Anne and I gave our presentation on our mocap + keyframing efforts, and it prompted good discussion about the ease of use of euler vs. quaternion representations for these options, which other people found that they were also experiences issues with. I also really liked Alyssa's Blender visualizations for our CCD implementations.
