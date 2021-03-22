@@ -1,5 +1,17 @@
 # Technical Animation (Spring 2021) Blog
 
+
+### Paper Presentations II (3/17)
+
+I gave my presentation on "A Safe and Fast Repulsion Method for GPU-Based Cloth Self-Collisions". I think my paper was pretty interesting: the intuition behind the constraints chosen were fairly straightforward, and I liked how they proposed an adaptive remeshing scheme to bolster their methodology. With my background in GPUs, I particularly appreciated how they gave a description of writing a kernel to perform their iterative two-phase collision handling approach.
+
+I also liked Max's presentation on position based dynamics!
+
+### Rigid Bodies and Contact (3/15)
+
+Today we discussed a variety of techniques in contact and collision detection: impulse-based, penalty-based, and constrain-based. Earlier in class we also briefly mentioned Andrew Witkin and David Baraff's course notes for physically-Based Modeling, which I've come across a handful of times in related work I've researched while coming up with what I should do for the final course project (modeling jello). I will probably continue to reference it while I do mini-project 2 and refine my final project idea.
+
+
 ### More Cloth (3/10)
 
 We started class today by covering the "Robust Treatment of Collisions, Contact, and Friction for Cloth Animation", which was useful for understanding some key points for handling collisions (in particular, self-collisions). We also discuss limiting strain using momentum conserving impulses. The rest of the lecture, we covered other papers to handling tuning simulation parameters, which can be a sore point for spring mass systems. One of the papers that caught my eye was the "Adaptive Anisotropic Remeshing for Cloth Simulation", which uses an extreme intuitive anisotropic meshing scheme. The operations were reminiscent of the remeshing operations we implemented for MeshEdit in 15462, so it was quite interesting to see such intuitive operations had great efficacy in this paper's implementation; I think implementing the algorithms for this paper is very approachable, possibly in-scope for projects for this course. 
